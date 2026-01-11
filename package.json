@@ -1,0 +1,15 @@
+{
+  "name": "@blackroad/blackroad-os-pack-engineering",
+  "version": "1.0.0",
+  "description": "Engineering & CAD pack for BlackRoad OS",
+  "main": "dist/index.js",
+  "bin": { "blackroad-os-pack-engineering": "./bin/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "install-pack": "node bin/install.js",
+    "test": "jest"
+  },
+  "keywords": ["blackroad", "pack", "engineering"],
+  "author": "BlackRoad OS, Inc.",
+  "license": "SEE LICENSE IN LICENSE"
+}
